@@ -4,6 +4,5 @@ isort
 pylint
 mypy
 # Testing
-tox
 pytest
 pytest-cov
