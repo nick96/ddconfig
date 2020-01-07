@@ -27,5 +27,5 @@ jobs:
         black --check --quiet ddconfig tests
         isort -rc --check-only ddconfig tests
         pylint ddconfig tests
-    - name: Test with tox/pytest
+    - name: Run tests
       run: pytest tests
