@@ -24,8 +24,8 @@ jobs:
         pip install -r requirements.txt
     - name: Lint
       run: |
-        black --check --quiet ddconfig tests
-        isort -rc --check-only ddconfig tests
-        pylint ddconfig tests
+        black --check --quiet ddconfig
+        isort -rc --check-only ddconfig
+        pylint ddconfig
     - name: Run tests
       run: pytest tests
